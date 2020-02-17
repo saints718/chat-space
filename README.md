@@ -33,7 +33,7 @@ Things you may want to cover:
 ## Association
 - has_many : messages
 - has_many : group_users
-- has_many : groups, through: :group_users
+- has_many : groups, through: :groups_users
 
 
 
@@ -56,12 +56,12 @@ Things you may want to cover:
 ## Association
 - has_many :messages
 - has_many :group_users
-- has_many :users, through group_users
+- has_many :users, through groups_users
 
 ##　groups_usersテーブル
 |Column|Type|Options|
 |------|----|---|
-|users|references|null: false,foreign_key:true|
+|user|references|null: false,foreign_key:true|
 |group|references|null: false,foreign_key:true|
 
 - belong_to :user
