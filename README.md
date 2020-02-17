@@ -46,8 +46,8 @@ Things you may want to cover:
 |group|references|foreign_key: true,null: false|
 
 ## Association
-- belog_to :user
-- belong_to :groups
+- belong_to :user
+- belong_to :group
 
 ## groupsテーブル
 |Column|Type|Options|
@@ -64,5 +64,5 @@ Things you may want to cover:
 |users|references|null: false,foreign_key:true|
 |group|references|null: false,foreign_key:true|
 
-- belog_to :user
-- blong_to :group
+- belong_to :user
+- belong_to :group
