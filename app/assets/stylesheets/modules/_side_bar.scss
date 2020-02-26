@@ -3,14 +3,14 @@
   float: left;
 
 &__Header{
-   background-color:#253141;
+   background-color:$BG-color__SideBar__Header;
    height:100px;
    display: flex;
    align-items: center;
    padding-right: 20px;
    padding-left: 20px;
   &__Box{
-      background-color:#253141;
+      background-color:$BG-color__SideBar__Header;
       width:260px;
       height:20px;
       display: flex; 
@@ -18,14 +18,14 @@
 
    &__Name{
            width:80px;
-           background-color:#253141;
+           background-color:$BG-color__SideBar__Header;
            font-weight: bold;
            color:white;
    }
       
    &__Icon{
      width:60px;
-      background-color:#253141;
+      background-color:$BG-color__SideBar__Header;
       text-align: right;
     &__Btn1{
       color:#ffffff;
@@ -43,7 +43,7 @@
   }
 }
 &__Body{
-   background-color:#2f3e51;
+   background-color:$BG-color__SideBar__Body;
    height:calc(100vh - 100px);
    
    &__GroupName{
@@ -53,7 +53,7 @@
        position: relative;
        top:20px;
        left:20px;
-       background-color:#2f3e51;
+       background-color:$BG-color__SideBar__Body;
        color: white;
        
    }
@@ -64,7 +64,7 @@
        position: relative;
        top:37px;
        left:20px;
-       background-color:#2f3e51;
+       background-color:$BG-color__SideBar__Body;
        color:white;
 
    }
