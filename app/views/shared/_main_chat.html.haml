@@ -1,0 +1,41 @@
+.MainChat
+ .MainChat__Info
+  .MainChat__Info__GroupName
+   Techcamp
+  .MainChat__Info__Member
+   menber:Takashi
+  %a{href: '#'}
+   .MainChat__Info__Edit
+    Edit
+
+ .MainChat__Talk
+
+  .MainChat__Talk__Box
+   .MainChat__Talk__Box__Info
+    .MainChat__Talk__Box__Info__Name
+     お漏らし組
+    .MainChat__Talk__Box__Info__Date
+     2019/1/1
+   .MainChat__Talk__Box__Text
+    カチコミは5月5日を予定しております
+
+  .MainChat__Talk__Box2
+   .MainChat__Talk__Box2__Info
+    .MainChat__Talk__Box2__Info__Name
+     組長
+    .MainChat__Talk__Box2__Info__Date
+     2019/3/1
+   .MainChat__Talk__Box2__Text
+    指詰める  
+    
+ .MainChat__Send
+  .MainChat__Send__MessageBox
+   .MainChat__Send__MessageBox__Input
+    .MainChat__Send__MessageBox__Input__Text
+     Type a message
+    %label{class: "MainChat__Send__MessageBox__Input__Icon"}
+     %input{type: "file" , class: "MainChat__Send__MessageBox__Input__Icon__Image"}
+     = icon('fas', 'image')
+   .MainChat__Send__MessageBox__Submit
+    Send
+  
