@@ -2,11 +2,11 @@
  .SideBar__Header
   .SideBar__Header__Box
    .SideBar__Header__Box__Name
-    なまえ
+    = current_user.name
    .SideBar__Header__Box__Icon
     = link_to "#", class: "SideBar__Header__Box__Icon__Btn1" do
      = icon('fas', 'edit')
-    = link_to "#", class: "SideBar__Header__Box__Icon__Btn2" do
+    = link_to edit_user_path(current_user), class: "SideBar__Header__Box__Icon__Btn2" do
      = icon('fas', 'cog')
    
  .SideBar__Body
